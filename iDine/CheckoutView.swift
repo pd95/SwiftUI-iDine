@@ -11,6 +11,7 @@ import SwiftUI
 struct CheckoutView: View {
     static let paymentTypes = ["Cash", "Credit Card", "iDine Points"]
     static let tipAmounts = [10, 15, 20, 25, 0]
+    static let pickupTimes = ["Now", "Tonight", "Tomorrow Morning"]
 
     @EnvironmentObject var order: Order
 //    @State private var paymentType = 0
@@ -18,6 +19,7 @@ struct CheckoutView: View {
     @State private var addLoyaltyDetails = false
     @State private var loyaltyNumber = ""
     @State private var tipAmount = 1
+    @State private var pickupTime = 1
     @State private var showingPaymentAlert = false
 
     var totalPrice: Double {
@@ -44,6 +46,11 @@ struct CheckoutView: View {
                     TextField("Enter your iDine ID", text: $loyaltyNumber)
                 }
 
+                Picker("Pickup time", selection: $pickupTime) {
+                    ForEach(Self.pickupTimes.indices) {
+                        Text(Self.pickupTimes[$0])
+                    }
+                }
             }
             Section(header: Text("Add a tip?")) {
                 Picker("Percentage:", selection: $tipAmount) {
