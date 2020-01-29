@@ -34,3 +34,8 @@ struct MenuItem: Codable, Equatable, Identifiable {
     static let example = MenuItem(id: UUID(), name: "Maple French Toast", photoCredit: "Joseph Gonzalez", price: 6, restrictions: ["G", "V"], description: "Sweet, fluffy, and served piping hot, our French toast is flown in fresh every day from Maple City, Canada, which is where all maple syrup in the world comes from. And if you believe that, we have some land to sell you…")
     #endif
 }
+
+// FIXME: Should we really store the menu sections/items in a global or this type?
+enum Menu {
+    static let `default` = Bundle.main.decode([MenuSection].self, from: "menu.json")
+}
