@@ -17,6 +17,7 @@
 		1777B1F823E1FFE400F1255B /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1777B1F523E1FFE400F1255B /* Order.swift */; };
 		1777B1F923E1FFE400F1255B /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1777B1F623E1FFE400F1255B /* Helper.swift */; };
 		1777B1FB23E1FFF300F1255B /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 1777B1FA23E1FFF300F1255B /* menu.json */; };
+		1777B1FD23E203C000F1255B /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1777B1FC23E203C000F1255B /* ItemRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		1777B1F523E1FFE400F1255B /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		1777B1F623E1FFE400F1255B /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		1777B1FA23E1FFF300F1255B /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
+		1777B1FC23E203C000F1255B /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				1777B1E023E1FF9B00F1255B /* AppDelegate.swift */,
 				1777B1E223E1FF9B00F1255B /* SceneDelegate.swift */,
 				1777B1E423E1FF9B00F1255B /* ContentView.swift */,
+				1777B1FC23E203C000F1255B /* ItemRow.swift */,
 				1777B1F623E1FFE400F1255B /* Helper.swift */,
 				1777B1F423E1FFE400F1255B /* Menu.swift */,
 				1777B1F523E1FFE400F1255B /* Order.swift */,
@@ -162,6 +165,7 @@
 				1777B1E123E1FF9B00F1255B /* AppDelegate.swift in Sources */,
 				1777B1E323E1FF9B00F1255B /* SceneDelegate.swift in Sources */,
 				1777B1F823E1FFE400F1255B /* Order.swift in Sources */,
+				1777B1FD23E203C000F1255B /* ItemRow.swift in Sources */,
 				1777B1F723E1FFE400F1255B /* Menu.swift in Sources */,
 				1777B1E523E1FF9B00F1255B /* ContentView.swift in Sources */,
 				1777B1F923E1FFE400F1255B /* Helper.swift in Sources */,
